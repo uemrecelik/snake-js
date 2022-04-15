@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Ubuntu:ital@0;1&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(182,46,107,1) 29%, rgba(253,29,29,1) 74%, rgba(252,176,69,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+  }
+  canvas {
+    background : black;  
+    border: 1px outset white;
+    box-shadow: 5px 7px 56px 5px rgba(110, 30, 290, 1);
+  }
+  .back-button-area{
+      display: block;
+      background: transparent;
+      height: 50x;
+      float: left;
+      height: 400px;
+
+  }
+  .back-button{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      width: 35px;
+      padding: 10px;
+      display: inline-block;
+      border: 5px;
+      border-style:outset;
+      background-color: rgb(241, 16, 16);
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 40px;
+  }
+  
+  @media screen and (max-width:768px) {
+    
+   .back-button-area{
+       height: fit-content;
+   }
+    .score-wrapper{
+        display: none;
+        
+    }
+    .maxscore{
+        display: none;
+        visibility: hidden;
+    }
+   
+ }
